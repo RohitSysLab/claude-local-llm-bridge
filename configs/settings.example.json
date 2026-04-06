@@ -1,0 +1,12 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "ollama",
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_BASE_URL": "http://localhost:11434"
+  },
+  "notes": {
+    "ANTHROPIC_BASE_URL": "Point this to your Ollama server address",
+    "ANTHROPIC_AUTH_TOKEN": "Must be set to 'ollama' — value is ignored by Ollama but required by Claude Code",
+    "ANTHROPIC_API_KEY": "Leave empty when using Ollama locally"
+  }
+}
