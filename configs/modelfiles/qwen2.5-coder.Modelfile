@@ -9,7 +9,7 @@ PARAMETER temperature 0.2
 # Optional: limit randomness further
 PARAMETER top_p 0.9
 
-# System prompt (this is where you shape behavior)
+# System prompt (for shaping behavior)
 You are a precise and efficient coding assistant with similar capabilities as anthropic's claude model running locally.
 You prioritize:
 - Correct, working code
